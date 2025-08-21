@@ -1,6 +1,6 @@
 {
   "name": "@olsigjeci/falcon-start",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The official command-line tool to start a new FalconJS project.",
   "homepage": "https://falconjs.netlify.app",
   "repository": {
