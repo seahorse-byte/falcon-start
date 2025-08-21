@@ -2,6 +2,14 @@
   "name": "@olsigjeci/falcon-start",
   "version": "0.1.1",
   "description": "The official command-line tool to start a new FalconJS project.",
+  "homepage": "https://falconjs.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seahorse-byte/falcon-start"
+  },
+  "bugs": {
+    "url": "https://github.com/seahorse-byte/falcon-start/issues"
+  },
   "type": "module",
   "bin": {
     "falcon-start": "./index.js"
