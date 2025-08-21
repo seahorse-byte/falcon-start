@@ -1,6 +1,6 @@
 {
   "name": "@olsigjeci/falcon-start",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The official command-line tool to start a new FalconJS project.",
   "type": "module",
   "bin": {

@@ -1,34 +1,18 @@
 {
-  "name": "@olsigjeci/falconjs",
-  "version": "0.1.0",
-  "description": "A lightweight, fine-grained reactive JS framework built from scratch.",
+  "name": "my-falcon-app",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "main": "./dist/falcon.umd.cjs",
-  "module": "./dist/falcon.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/falcon.es.js",
-      "require": "./dist/falcon.umd.cjs"
-    }
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^5.0.0"
+  "dependencies": {
+    "@olsigjeci/falconjs": "^0.1.1"
   },
-  "keywords": [
-    "javascript",
-    "framework",
-    "reactive",
-    "fine-grained",
-    "solidjs",
-    "ui"
-  ],
-  "license": "MIT"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
 }
