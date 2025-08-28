@@ -10,7 +10,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function run() {
-  
   const FALCON_ART = `
     ⠀⠀⠀⠀⠀⠀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀
   ⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀
@@ -32,7 +31,7 @@ async function run() {
       type: 'input',
       name: 'projectName',
       message: 'What is the name of your new project?',
-      validate: (input) => {
+      validate: input => {
         if (/^([A-Za-z\-\_\d])+$/.test(input)) return true;
         return 'Project name may only include letters, numbers, underscores and hashes.';
       },
